@@ -1,0 +1,24 @@
+.home-div {
+  margin: 0;
+  padding-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+  margin-bottom: 20px; 
+}
+
+.country-title {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+
+
+@media (max-width: 1000px) {
+  .home-div {
+    min-height: 40vh;
+  }
+}

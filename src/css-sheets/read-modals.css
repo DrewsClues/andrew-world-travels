@@ -1,0 +1,23 @@
+.home_caption {
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+  }
+
+  .home_caption:hover{
+    opacity: 40%;
+    cursor: pointer;
+  }
+
+.read-body{
+    font-size: 14pt;
+}
+
+
+  @media (max-width: 768px) {
+    .home_caption {
+      font-size: 100%;
+      font-weight: bold;
+    }
+  }

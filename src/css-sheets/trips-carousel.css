@@ -1,0 +1,42 @@
+.carousel-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trip-carousel {
+    max-width: 50%; 
+    width: 50%; 
+  }
+  
+  .travel-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+    border-radius: 50px; 
+  }
+  
+  .home_caption {
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+  }
+
+  .home_caption:hover{
+    opacity: 40%;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+    .home_caption {
+      font-size: 100%;
+      font-weight: bold;
+    }
+
+    .trip-carousel {
+        max-width: 70%; 
+        width: 70%; 
+      }
+  }
