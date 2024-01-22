@@ -5,6 +5,8 @@ import "../css-sheets/trips-carousel.css";
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
+import Read_Bisbee from './read-modals/Read_Bisbee';
+import Read_WhiteSands from './read-modals/Read_WhiteSands';
 
 function USAcarousel() {
 
@@ -18,7 +20,7 @@ function USAcarousel() {
                             <img className = "travel-image" src="Bisbee.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Bisbee, Arizona</h3>
+                                <Read_Bisbee/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -27,7 +29,7 @@ function USAcarousel() {
                             <img className = "travel-image" src="White-Sands.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>White Sands, New Mexico</h3>
+                                <Read_WhiteSands/>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
