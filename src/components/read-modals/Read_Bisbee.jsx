@@ -27,7 +27,7 @@ function Read_Bisbee() {
             Bisbee is a small mining town located within the Mule Mountains of Cochise County Arizona, the most southeastern county of Arizona. Bisbee was created in the 1880s due to a boom 
             in copper, silver, and gold mining. Major mining operations declined in the second half of the 20th century and were halted in the 1970s. The miner population was replaced by artists 
             and hippies who revitalized the community which is now a major tourist attraction for Southeastern Arizona. The town features a mine tour, some beautiful Victorian buildings, and many nice restaurants, bars, 
-            cafes, and shops selling artwork and antiques. I did most of my growing up in Sierra Vista, Arizona, about a 40 minute drive east so I have visited Bisbee many times, to tour guide 
+            cafes, and shops selling artwork and antiques. I did most of my growing up in Sierra Vista, Arizona, about a 40 minute drive west so I have visited Bisbee many times, to tour guide 
             for visiting guests, or just somewhere to go on a weekend with my parents. I highly recommend going for the interesting architecture, and to enjoy the walkability, something 
             greatly lacking in most American towns. 
         </Modal.Body>

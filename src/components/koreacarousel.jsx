@@ -6,10 +6,10 @@ import { HiOutlineBookOpen } from "react-icons/hi";
 import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
 
-import Read_Nagoya from './read-modals/Read_Nagoya';
-import Read_Matsumoto from './read-modals/Read-Matsumoto';
-import Read_Kamikochi from './read-modals/Read-Kamikochi';
-import Read_Osaka from './read-modals/Read_Osaka';
+import Read_Seoraksan from './read-modals/Read_Seoraksan';
+import Read_Bukhansan from './read-modals/Read_Bukhansan';
+import Read_Seoul from './read-modals/Read_Seoul';
+
 
 
 function Koreacarousel() {
@@ -25,7 +25,7 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Seoul.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Seoul</h3>
+                                <Read_Seoul/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -43,7 +43,7 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Bukhansan.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Bukhansan National Park</h3>
+                                <Read_Bukhansan/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -52,7 +52,7 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Seoraksan.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Seoraksan National Park</h3>
+                                <Read_Seoraksan/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
