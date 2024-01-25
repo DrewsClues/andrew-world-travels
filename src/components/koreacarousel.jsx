@@ -9,6 +9,8 @@ import { Modal , Card, Carousel } from 'react-bootstrap'
 import Read_Seoraksan from './read-modals/Read_Seoraksan';
 import Read_Bukhansan from './read-modals/Read_Bukhansan';
 import Read_Seoul from './read-modals/Read_Seoul';
+import Read_Gwangju from './read-modals/Read_Gwangju';
+import Read_Busan from './read-modals/Read_Busan';
 
 
 
@@ -34,7 +36,7 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Busan.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Busan</h3>
+                                <Read_Busan/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -62,7 +64,7 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Gwangju.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Gwangju</h3>
+                                <Read_Gwangju/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
