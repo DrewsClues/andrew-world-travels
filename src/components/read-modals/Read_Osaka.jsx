@@ -27,8 +27,8 @@ function Read_Osaka() {
             Osaka (大阪市), is located in the Kansai region of Japan, and is one of the country's largest cities. I have visited Osaka twice, once in July of 2019 by myself, and again in May of 2022 with my mother and sister. 
             I have high regards for Osaka, it's a very modern city with a lot of great places to experience on its own, and also easy access to other iconcic cities like Kobe, Nara, and Kyoto. During my most recent trip, I visited 
             some of the popular tourist spots like Osaka Castle, and the  Dōtonbori shopping disctrict, famous for Takoyaki. The bustling areas of the city are exciting of course, and I highly recommend them. But my favorite part of Osaka was visiting 
-            quieter locations nearby to our hotel, some great Izakaya, ramen, and a Japanese BBQ shop. Most memorably for me was a busy little Gyoza shop called <a href="https://maps.app.goo.gl/8ZUDhdiZEsyvgWAE6" target="_blank">Nanyakana (なんやかんや)</a>, where the staff was extremely polite and welcoming and the food and drinks were quite delicious. My Mom was quite touched when 
-            the cook came out to bow to us as we left, it was my Mother's first visit to Japan so I really appreciate people being so kind and making it extra special for her. Definitely recommend Osaka for a visit! 
+            quieter locations nearby to our hotel, some great Izakaya, ramen, and a Japanese BBQ shop. Most memorably for me was a busy little Gyoza shop called <a href="https://maps.app.goo.gl/8ZUDhdiZEsyvgWAE6" target="_blank">Nanyakana (なんやかんや)</a>, where the staff was extremely polite and welcoming and the food and drinks were quite good. 
+            My Mom was very touched when the cook came out to bow to us as we left, it was my Mother's first visit to Japan so I really appreciate people being so kind and making it extra special for her. If you're visiting Japan, you should for sure stop by Osaka. 
 
         </Modal.Body>
         </Modal>

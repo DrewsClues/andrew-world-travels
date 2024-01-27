@@ -24,8 +24,8 @@ function Read_Busan() {
             Busan
             </Modal.Title>
         </Modal.Header>
-        <Modal.Body className='read-body'>
-        Busan (부산), is located in South Korea's most southeast corner on the coast of the South Sea. With a population of over 3 million people it's the country's second most populous city. It’s a major port city and due to its beaches is a very popular spot for Koreans to go on vacation. The most famous beach in the city if called Haeundae (해운대), and is a great place to get street food, sit in air conditioned cafes, and enjoy an ocean view. You can also take yacht rides for a great view of the city, this is especially beautiful at sunset. On a day, you can actually see the Japanese island of Tsushima across the water. Of course being by the ocean, there is an abundance of seafood in Busan. If you’re looking for a getaway from Seoul, some time by the sea, and great fish, checkout Busan, it can easily be reached by plane, express bus, and KTX/SRT trains. 
+        <Modal.Body className='read-body'>  
+        Busan (부산), is located in South Korea's most southeast corner on the coast of the South Sea. With a population of over 3 million people it's the country's second most populous city. It’s a major port city and due to its beaches is a very popular spot for Koreans to go on vacation. The most famous beach in the city is called Haeundae (해운대), and is a great place to get street food, sit in air conditioned cafes, and enjoy an ocean view. You can also take yacht rides for a great view of the city which is especially beautiful at sunset. On a clear day, you can actually see the Japanese island of Tsushima across the water. Of course being by the ocean, there is an abundance of seafood in Busan. If you’re looking for a getaway from Seoul, some time by the sea, and great fish, checkout Busan, it can easily be reached by plane, express bus, and KTX/SRT trains. 
         </Modal.Body>
         </Modal>
     </>
