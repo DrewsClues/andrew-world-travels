@@ -12,6 +12,7 @@ import Read_Kamikochi from './read-modals/Read-Kamikochi';
 import Read_Osaka from './read-modals/Read_Osaka';
 import Read_Fukuoka from './read-modals/Read_Fukuoka';
 import Read_Kyoto from './read-modals/Read_Kyoto';
+import Read_Nara from './read-modals/Read_Nara';
 
 
 function Japancarousel() {
@@ -78,6 +79,15 @@ function Japancarousel() {
                             </div>
                             <Carousel.Caption>
                                 <Read_Kyoto/>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Nara3.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                                <Read_Nara/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
