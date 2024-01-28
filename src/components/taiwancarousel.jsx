@@ -5,6 +5,7 @@ import "../css-sheets/trips-carousel.css";
 import { HiOutlineBookOpen } from "react-icons/hi";
 import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
+import Read_Jiufen from './read-modals/Read_Jiufen';
 
 
 function Taiwancarousel() {
@@ -20,7 +21,7 @@ function Taiwancarousel() {
                             <img className = "travel-image" src="Jiufen.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Jiufen, Taiwan</h3>
+                                <Read_Jiufen/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
