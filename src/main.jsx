@@ -9,6 +9,7 @@ import Japancarousel from './components/japancarousel';
 import Koreacarousel from './components/koreacarousel';
 import Taiwancarousel from './components/taiwancarousel';
 import USAcarousel from './components/usacarousel';
+import Myanmarcarousel from './components/myanmarcarousel';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -31,6 +32,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div className='home-div'>
         <h1 className='country-title'>USA</h1>
         <USAcarousel/>
+      </div>
+
+      <div className='home-div'>
+        <h1 className='country-title'>Myanmar</h1>
+        <Myanmarcarousel/>
       </div>
   </React.StrictMode>,
 )
