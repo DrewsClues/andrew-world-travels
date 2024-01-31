@@ -6,6 +6,7 @@ import { HiOutlineBookOpen } from "react-icons/hi";
 import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
 import Read_Mandalay from './read-modals/Read_Mandalay';
+import Read_Bagan from './read-modals/Read_Bagan';
 
 
 function Myanmarcarousel() {
@@ -22,6 +23,15 @@ function Myanmarcarousel() {
                             </div>
                             <Carousel.Caption>
                                 <Read_Mandalay/>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Bagan.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                                <Read_Bagan/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
