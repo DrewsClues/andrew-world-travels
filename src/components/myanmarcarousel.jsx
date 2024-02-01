@@ -7,6 +7,8 @@ import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
 import Read_Mandalay from './read-modals/Read_Mandalay';
 import Read_Bagan from './read-modals/Read_Bagan';
+import Read_Mt_Popa from './read-modals/Read_Mt_Popa';
+import Read_Shan_Hills from './read-modals/Read_Shan_hills';
 
 
 function Myanmarcarousel() {
@@ -32,6 +34,24 @@ function Myanmarcarousel() {
                             </div>
                             <Carousel.Caption>
                                 <Read_Bagan/>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="MtPopa.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                                <Read_Mt_Popa/>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Shan_hills.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                                <Read_Shan_Hills/>
                             </Carousel.Caption>
                         </Carousel.Item>
 

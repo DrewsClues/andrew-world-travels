@@ -11,7 +11,7 @@ function Read_Bagan() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Bagan <HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Old Bagan <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
@@ -20,11 +20,11 @@ function Read_Bagan() {
         >
         <Modal.Header closeButton>
             <Modal.Title id="example-modal-sizes-title-lg">
-            Bagan
+            Old Bagan
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>
-            Bagan is an archaelogical site located about 150km southwest of Mandalay, on the east bank of the Irrawady river. It was the capital of the Bagan Empire which 
+            Old Bagan is an archaelogical site located about 150km southwest of Mandalay, on the east bank of the Irrawady river. It was the capital of the Bagan Empire which 
             stood from the 9th to 13th century. The city was a center of cultural, religious, and economic signficance and boasts thousands of stupas, temples, and monuments. 
             I traveled there in the summer of 2017 as the main event of my Myanmar trip and it did not disappoint! The temples are fairly dispersed so I was advised to rent an
             electric motorbike for convenience which I did. Two things kept me in awe of the place, first of course was the vast number of temples that easily rival Cambodia's Angkor
@@ -34,8 +34,8 @@ function Read_Bagan() {
             This allowed for some great picture taking opportunities and a nice view of the incredible skyline dominated by many stupa and temple spires. 
             It was quite spectacular getting to explore this marvel of history in near solitude. Though on the first day I ran into a couple of Dutch guys about my age whom I met on my bus ride in, 
             they invited me to join them and I agreed. So I got some alone time, and also got to share the experience with others which was a solid mix for me. My favorite memory was 
-            watching the sunset from atop one of the temples, the incredible flaming colors of the skyy behind the darkened silhouttes of the ancient monuments of Bagan is something 
-            that will stick with me forever.
+            watching the sunset from atop one of the temples, the incredible flaming colors of the skyy behind the darkened silhouttes of the ancient monuments of Old Bagan is something 
+            that will stay with me forever.
         </Modal.Body>
         </Modal>
     </>
