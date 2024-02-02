@@ -1,3 +1,23 @@
+
+.home-carousel-container {
+  width: 60%;
+  background-color: rgba(67, 66, 66, 0.8);
+  margin: 50px auto; 
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 50px; 
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+
+
 .home-div {
   margin: 0;
   padding-bottom: 20px; 
@@ -7,6 +27,7 @@
   align-items: center;
   height: 100%;
   min-height: 100vh;
+  width: 100%;
   margin-bottom: 20px; 
 }
 
@@ -14,11 +35,19 @@
   color: white;
   font-weight: bold;
   margin-bottom: 10px; 
+  font-size: 50pt;
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .home-div {
     min-height: 40vh;
+  }
+
+  .country-title {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    font-size: 35pt;
   }
 }

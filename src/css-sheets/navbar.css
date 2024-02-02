@@ -1,0 +1,23 @@
+.page-navbar{
+    background-color: rgba(50, 48, 48, 0.8);
+    height: 10%;
+    
+}
+
+
+.page-navbar .navbar-brand,
+.page-navbar .nav-link,
+.page-navbar .dropdown-item {
+  color: white; 
+  font-weight: bold;
+}
+
+.page-navbar .dropdown-item {
+    color: black; 
+  }
+
+
+.page_icon{
+    height: 5%;
+    width: 5%;
+}
