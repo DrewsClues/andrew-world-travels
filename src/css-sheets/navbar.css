@@ -10,6 +10,7 @@
 .page-navbar .dropdown-item {
   color: white; 
   font-weight: bold;
+  font-size: 25pt;
 }
 
 .page-navbar .dropdown-item {
@@ -20,4 +21,27 @@
 .page_icon{
     height: 5%;
     width: 5%;
+    padding-right: 10px;
+}
+
+
+@media (max-width: 1500px) {
+
+  .page-navbar .navbar-brand,
+  .page-navbar .nav-link,
+  .page-navbar .dropdown-item {
+    color: white; 
+    font-weight: bold;
+  }
+
+  .page-navbar .dropdown-item {
+    color: black; 
+  }
+
+  .page_icon{
+    height: 12%;
+    width: 12%;
+    padding-right: 10px;
+}
+ 
 }

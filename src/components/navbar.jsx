@@ -29,11 +29,12 @@ function Navigation_Bar() {
   return (
     <Navbar expand="lg" className="page-navbar">
       <Container>
-        <Navbar.Brand href="#home"> Andrew Thomas Travels</Navbar.Brand>
+        <img className = "page_icon" src="Travel_icon_dark.png"></img> 
+        <Navbar.Brand href="#home"> Andrew T. Travels</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
 
 
