@@ -21,7 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div className='home-carousel-container'>
 
         <div className='home-div' id='korea-carousel'>
-          <h1 className='country-title'>Korea</h1>
+          <h1 className='country-title'>South Korea</h1>
           <Koreacarousel/>
         </div>
         
