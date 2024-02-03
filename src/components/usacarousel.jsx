@@ -7,6 +7,7 @@ import { PiGlobeHemisphereWestDuotone } from "react-icons/pi";
 import { Modal , Card, Carousel } from 'react-bootstrap'
 import Read_Bisbee from './read-modals/Read_Bisbee';
 import Read_WhiteSands from './read-modals/Read_WhiteSands';
+import Read_Denali from './read-modals/Read_Denali';
 
 function USAcarousel() {
 
@@ -15,6 +16,17 @@ function USAcarousel() {
         <div className='carousel-div'>
 
             <Carousel fade className='trip-carousel'>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Denali.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                                <Read_Denali/>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+
                         <Carousel.Item interval={5000}>
                             <div>
                             <img className = "travel-image" src="Bisbee.jpg"></img> 
