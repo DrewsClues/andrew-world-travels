@@ -11,7 +11,7 @@ function Read_Vientiane() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Vientiane<HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Vientiane <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
