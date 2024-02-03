@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Read_About from './read-modals/About_Page';
 
 function Navigation_Bar() {
 
@@ -30,11 +31,11 @@ function Navigation_Bar() {
     <Navbar expand="lg" className="page-navbar">
       <Container>
         <img className = "page_icon" src="Travel_icon_dark.png"></img> 
-        <Navbar.Brand href="#home"> Andrew T. Travels</Navbar.Brand>
+        <Navbar.Brand href="#home"> Andrew's Travels</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About</Nav.Link>
+            <Read_About/>
             <Nav.Link href="#link">Link</Nav.Link>
 
 
@@ -45,6 +46,7 @@ function Navigation_Bar() {
               <NavDropdown.Item href="#usa-carousel">USA</NavDropdown.Item>
               <NavDropdown.Item href="#myanmar-carousel">Myanmar</NavDropdown.Item>
               <NavDropdown.Item href="#laos-carousel">Laos</NavDropdown.Item>
+              <NavDropdown.Item href="#cambodia-carousel">Cambodia</NavDropdown.Item>
             </NavDropdown>
 
 
