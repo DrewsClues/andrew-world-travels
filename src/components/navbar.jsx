@@ -47,6 +47,7 @@ function Navigation_Bar() {
               <NavDropdown.Item href="#myanmar-carousel">Myanmar</NavDropdown.Item>
               <NavDropdown.Item href="#laos-carousel">Laos</NavDropdown.Item>
               <NavDropdown.Item href="#cambodia-carousel">Cambodia</NavDropdown.Item>
+              <NavDropdown.Item href="#macau-carousel">Macau</NavDropdown.Item>
             </NavDropdown>
 
 

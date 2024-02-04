@@ -13,6 +13,7 @@ import USAcarousel from './components/usacarousel';
 import Myanmarcarousel from './components/myanmarcarousel';
 import Laoscarousel from './components/laoscarousel';
 import Cambodiacarousel from './components/cambodiacarousel';
+import Macau_carousel from './components/macau';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -53,6 +54,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <div className='home-div' id='cambodia-carousel'>
           <h1 className='country-title'>Cambodia</h1>
           <Cambodiacarousel/>
+        </div>
+
+
+        <div className='home-div' id='macau-carousel'>
+          <h1 className='country-title'>Macau</h1>
+          <Macau_carousel/>
         </div>
 
 
