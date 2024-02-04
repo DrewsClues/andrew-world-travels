@@ -8,6 +8,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Read_About from './read-modals/About_Page';
 
+import Read_visa from './tip-modals/visas';
+import Read_taxis from './tip-modals/taxis';
+
 function Navigation_Bar() {
 
 
@@ -36,7 +39,10 @@ function Navigation_Bar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Read_About/>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <NavDropdown title="Travel Tips" id="basic-nav-dropdown">
+              <NavDropdown.Item ><Read_visa/></NavDropdown.Item>
+              <NavDropdown.Item ><Read_taxis/></NavDropdown.Item>
+            </NavDropdown>
 
 
             <NavDropdown title="Countries" id="basic-nav-dropdown">
