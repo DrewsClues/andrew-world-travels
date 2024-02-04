@@ -24,7 +24,9 @@ function Read_Macau() {
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>
-            Macau (澳門), is not actually a country but rather a special administrative district of the People's Republic of China. TO BE CONTINUED
+            Macau (澳門), is a city state and actually not a country but rather a special administrative district of the People's Republic of China. However, it has only
+            been under PRC rule since 1999, has a long separate history, and also some features of a sovereign state such as some self-governance, immigration
+            controls, and even separate passports. 
         
         
         </Modal.Body>
