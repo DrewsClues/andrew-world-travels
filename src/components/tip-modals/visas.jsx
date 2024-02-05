@@ -14,7 +14,7 @@ function Read_visa() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <Nav.Link href="#home" onClick={() => setLgShow(true)} >Visas</Nav.Link>
+        <Nav.Link className='text-dark' onClick={() => setLgShow(true)} >Visas</Nav.Link>
         <Modal
         size="lg"
         show={lgShow}
@@ -30,7 +30,7 @@ function Read_visa() {
             I'm sure most people are familiar with the term Visa, it's quite a common term. However, many people, particularly those with more 
             powerful passports, can neglect to take them into account when making travel plans. With an American passport for example, there are many countries such
             as Japan where you are free to visit at a moments notice and stay in for up to 90 days visa free. However, there are many other countries where this is 
-            not the case. There are many other countries where tourist visas are required. This can range from simple visa on arrival, to a more drawn out formal process
+            not the case. Lots of places require visas for tourists. This can range from simple visa on arrival, to a more drawn out formal process
             of sending your passport and documents to your desired country's consulate and waiting for a response. Whenever you're planning a trip to a new country, always 
             make sure to do your research about visa requirements in advance, otherwise you can be in the awkward position of arriving at the airport and being informed you 
             won't be allowed on your plane because you lack a visa. This recently happened to a friend of mine when she tried to take a trip to Vietnam. It's an extra chore 
