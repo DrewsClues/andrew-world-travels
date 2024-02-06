@@ -13,7 +13,7 @@ import USAcarousel from './components/usacarousel';
 import Myanmarcarousel from './components/myanmarcarousel';
 import Laoscarousel from './components/laoscarousel';
 import Cambodiacarousel from './components/cambodiacarousel';
-import Macau_carousel from './components/macau';
+import Macau_carousel from './components/macaucarousel';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

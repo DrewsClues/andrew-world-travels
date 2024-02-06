@@ -11,6 +11,8 @@ import Read_About from './read-modals/About_Page';
 import Read_visa from './tip-modals/visas';
 import Read_taxis from './tip-modals/taxis';
 import Read_flights from './tip-modals/flights';
+import Read_finding_accomodations from './tip-modals/finding_accomodations';
+import Read_public_transportation from './tip-modals/public_transportation';
 
 function Navigation_Bar() {
 
@@ -42,8 +44,12 @@ function Navigation_Bar() {
             <Read_About/>
             <NavDropdown title="Travel Tips" id="basic-nav-dropdown">
               <NavDropdown.Item ><Read_visa/></NavDropdown.Item>
-              <NavDropdown.Item ><Read_taxis/></NavDropdown.Item>
               <NavDropdown.Item ><Read_flights/></NavDropdown.Item>
+              <NavDropdown.Item ><Read_finding_accomodations/></NavDropdown.Item>
+              <NavDropdown.Item ><Read_taxis/></NavDropdown.Item>
+              <NavDropdown.Item ><Read_public_transportation/></NavDropdown.Item>
+
+
 
             </NavDropdown>
 
