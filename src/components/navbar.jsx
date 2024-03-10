@@ -37,7 +37,7 @@ function Navigation_Bar() {
     <Navbar expand="lg" className="page-navbar">
       <Container>
         <img className = "page_icon" src="Travel_icon_dark.png"></img> 
-        <Navbar.Brand href="#home"> Andrew's Travels</Navbar.Brand>
+        <Navbar.Brand > Andrew's Travels</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

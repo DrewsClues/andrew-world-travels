@@ -30,7 +30,7 @@ function Read_MobileData() {
             I have major respect for my great aunts who backpacked Europe for six month in the 1950s, crossing the Atlantic in a passenger ship armed 
             with a travel book. However, these days we have far more conveniences that they never did back then. The most useful tool in my opinion is of course 
             the smart phone! Now it should be obvious to everyone that wifi is all over the place, many cafes, hotels and restaurants have it. However, I am a very strong 
-            proponent of getting mobile data. I've traveled with and without mobile data, having it is always way easier than not. 
+            proponent of getting mobile data. I've traveled with and without mobile data, having it is always way easier than not.  
 
             
             
